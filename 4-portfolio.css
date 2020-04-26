@@ -1,0 +1,115 @@
+
+body{
+    background-color: #ffc3dd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    color: #AC1A6A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+}
+h1{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+nav{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+h2, h3, p{
+    color: #AC1A6A;
+    margin: 20px;
+}
+span{
+    font-size: 1.2em;
+}
+ul{
+    display: flex;
+    margin: 0px;
+}
+li{
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+a{
+    height: 50px;
+    width: 200px;
+}
+.tabs{
+    height: 50px;
+    width: 200px;
+}
+.tabContainer{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    display:inline-block;
+    text-align: center;
+    padding: 0px;
+    border-bottom: 10px solid;
+}
+.tabText{
+    position: absolute;
+    display:inline-block;
+    top: 30%;
+    left: 30%;
+}
+#pinkContainer{
+    color:#ffc3dd; 
+}
+#blueContainer{
+    color:#c3f8ff;
+}
+#yellowContainer{
+    color:#fffbc3 
+}
+#pinkText, a:hover>#pinkContainer, a:focus>#pinkContainer, a:active>#pinkContainer{
+        color: #AC1A6A
+}
+
+#blueText, a:hover>#blueContainer, a:focus>#blueContainer, a:active>#blueContainer{
+    color: #0D6FBA;
+}
+
+#yellowText, a:hover>#yellowContainer, a:focus>#yellowContainer, a:active>#yellowContainer{
+    color: #9c6627;
+}
+.outerBox{
+    background-color: rgba(255, 255, 255, 50%);
+    margin: 20px;
+    padding: 10px;
+}
+a:hover>div>div, a:focus>div>div, a:active>div>div{
+    font-weight: bolder;
+}
+
+.innerBox{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer{
+    border-top: #AC1A6A 2px solid;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+}
+
+.iconLinks{
+    margin: 21px;
+}
+.icons{
+    width: 32px;
+    height: 32px;
+}
