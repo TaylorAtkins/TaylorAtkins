@@ -8,12 +8,24 @@ body{
 header{
     background-color: white;
     color: #AC1A6A;
-    width: 100%;
+    /*width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0px;
+    padding: 0px;*/
 }
+.about{
+    background-color: #ffc3dd;
+    color: #AC1A6A;
+    border-color: #AC1A6A;
+}
+.projects{
+    background-color: #c3f8ff;
+}
+.contact{
+    background-color: #fffbc3;
+}
+/*
 h1{
     margin-bottom: 0px;
     padding: 10px;
@@ -84,6 +96,7 @@ a{
 #yellowText, a:hover>#yellowContainer, a:focus>#yellowContainer, a:active>#yellowContainer{
     color: #9c6627;
 }
+*/
 .outerBox{
     background-color: rgba(255, 255, 255, 50%);
     margin: 20px;
