@@ -1,104 +1,43 @@
 
 body{
-    background-color: #ffc3dd;
+    background-color: #F3D0FF;
+    color: #4A2744;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
+    position: relative;
 }
 header{
-    background-color: white;
-    color: #AC1A6A;
-    /*width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    position: relative;
+    background-color: #4A2744;
+    color: white;
+    text-align: center;
     padding: 0px;*/
 }
 .about{
-    background-color: #ffc3dd;
-    color: #AC1A6A;
-    border-color: #AC1A6A;
+    background-color: #F3D0FF;
+    color: #4A2744;
+    border-color: #4A2744;
 }
 .projects{
-    background-color: #c3f8ff;
+    background-color: #CBFFFE;
+    color: #2A314A;
 }
 .contact{
-    background-color: #fffbc3;
+    background-color:#FFA9A9;
+    color: #4A1A1A;
 }
-/*
 h1{
+    color: #F3D0FF;
     margin-bottom: 0px;
     padding: 10px;
 }
-nav{
-    margin-bottom: 0px;
-    padding: 0px;
-}
-h2, h3, p{
-    color: #AC1A6A;
-    margin: 20px;
-}
+
 span{
     font-size: 1.2em;
 }
-ul{
-    display: flex;
-    margin: 0px;
-}
-li{
-    display: inline-block;
-    height: 60px;
-    width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-a{
-    height: 50px;
-    width: 200px;
-}
-.tabs{
-    height: 50px;
-    width: 200px;
-}
-.tabContainer{
-    height: 50px;
-    width: 200px;
-    position: relative;
-    display:inline-block;
-    text-align: center;
-    padding: 0px;
-    border-bottom: 10px solid;
-}
-.tabText{
-    position: absolute;
-    display:inline-block;
-    top: 30%;
-    left: 30%;
-}
-#pinkContainer{
-    color:#ffc3dd; 
-}
-#blueContainer{
-    color:#c3f8ff;
-}
-#yellowContainer{
-    color:#fffbc3 
-}
-#pinkText, a:hover>#pinkContainer, a:focus>#pinkContainer, a:active>#pinkContainer{
-        color: #AC1A6A
-}
-
-#blueText, a:hover>#blueContainer, a:focus>#blueContainer, a:active>#blueContainer{
-    color: #0D6FBA;
-}
-
-#yellowText, a:hover>#yellowContainer, a:focus>#yellowContainer, a:active>#yellowContainer{
-    color: #9c6627;
-}
-*/
 .outerBox{
-    background-color: rgba(255, 255, 255, 50%);
+   /* background-color: #4A2744;*/
     margin: 20px;
     padding: 10px;
 }
@@ -107,16 +46,17 @@ a:hover>div>div, a:focus>div>div, a:active>div>div{
 }
 
 .innerBox{
-    background-color: white;
+    /*background-color: #F3D0FF;*/
     margin: 20px;
     padding: 20px;
 }
 
 footer{
-    border-top: #AC1A6A 2px solid;
-    display: flex;
-    justify-content: center;
-    height: 63px;
+    /*border-top: #4A2744 2px solid;*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #4A2744;
 }
 
 .iconLinks{
@@ -125,4 +65,7 @@ footer{
 .icons{
     width: 32px;
     height: 32px;
+}
+#linkedIn{
+    width: 37.76px;
 }
