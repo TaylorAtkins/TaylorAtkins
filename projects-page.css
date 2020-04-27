@@ -50,7 +50,10 @@ a:hover>div>div, a:focus>div>div, a:active>div>div{
     margin: 20px;
     padding: 20px;
 }
-
+.card{
+    background-color: #2A314A;
+    color: #CBFFFE;
+}
 footer{
     /*border-top: #4A2744 2px solid;*/
     position: absolute;

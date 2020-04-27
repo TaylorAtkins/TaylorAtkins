@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Projects</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="projects-page.css" />
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -35,8 +34,38 @@
         <h2>
           Past Projects
         </h2>
-        <div class="innerBox">
-        </div>
+        <div class="container innerBox" id="accordion">
+            <div class="card">
+              <div class="card-header" id="space-hunt-header">
+                <h3 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#space-hunt-body" aria-expanded="true" aria-controls="space-hunt-body">
+                    Space Hunt
+                  </button>
+                </h3>
+              </div>
+          
+              <div id="space-hunt-body" class="collapse show" aria-labelledby="space-hunt-header" data-parent="#accordion">
+                <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laudantium, soluta repellat. Quasi beatae architecto, recusandae error quibusdam excepturi blanditiis eos 
+                  commodi illo temporibus aliquam sint totam ullam, omnis at ea.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="airline-header">
+                <h3 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#airline-body" aria-expanded="false" aria-controls="airline-body">
+                    Airline Application
+                  </button>
+                </h3>
+              </div>
+              <div id="airline-body" class="collapse" aria-labelledby="airline-header" data-parent="#accordion">
+                <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laudantium, soluta repellat. Quasi beatae architecto, recusandae error quibusdam excepturi blanditiis eos 
+                  commodi illo temporibus aliquam sint totam ullam, omnis at ea.
+                </p>
+              </div>
+            </div>
         </div>
       </section>
       <footer class="fixed-bottom">
@@ -44,7 +73,7 @@
           <li class="nav-item">
             <a href="https://github.com/TaylorAtkins" class="nav-link iconLinks">
               <img
-                src="images-portfolio/GitHub-Mark-32px.png"
+                src="images-portfolio/GitHub-Mark-Light-32px.png"
                 alt="GitHub Link"
                 class="icons"
               />
@@ -69,7 +98,7 @@
               class="nav-link iconLinks"
             >
               <img
-                src="images-portfolio/handshake_mark_dark.png"
+                src="images-portfolio/handshake_mark_light.png"
                 alt="Handshake Link"
                 class="icons"
               />
