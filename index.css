@@ -1,0 +1,71 @@
+
+body{
+    background-color: #F3D0FF;
+    color: #4A2744;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+header{
+    position: relative;
+    background-color: #4A2744;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+.about{
+    background-color: #F3D0FF;
+    color: #4A2744;
+    border-color: #4A2744;
+}
+.projects{
+    background-color: #CBFFFE;
+    color: #2A314A;
+}
+.contact{
+    background-color:#FFA9A9;
+    color: #4A1A1A;
+}
+h1{
+    color: #F3D0FF;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+span{
+    font-size: 1.2em;
+}
+.outerBox{
+   /* background-color: #4A2744;*/
+    margin: 20px;
+    padding: 10px;
+}
+a:hover>div>div, a:focus>div>div, a:active>div>div{
+    font-weight: bolder;
+}
+
+.innerBox{
+    /*background-color: #F3D0FF;*/
+    margin: 20px;
+    padding: 20px;
+}
+
+footer{
+    /*border-top: #4A2744 2px solid;*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #4A2744;
+}
+
+.iconLinks{
+    margin: 21px;
+}
+.icons{
+    width: 32px;
+    height: 32px;
+}
+#linkedIn{
+    width: 37.76px;
+}

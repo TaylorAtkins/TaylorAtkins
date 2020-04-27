@@ -1,7 +1,7 @@
 
 body{
-    background-color: #F3D0FF;
-    color: #4A2744;
+    background-color: #FFA9A9;
+    color: #4A1A1A;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -9,10 +9,10 @@ body{
 }
 header{
     position: relative;
-    background-color: #4A2744;
+    background-color: #4A1A1A;
     color: white;
     text-align: center;
-    padding: 0px;*/
+    padding: 0px;
 }
 .about{
     background-color: #F3D0FF;
@@ -28,7 +28,7 @@ header{
     color: #4A1A1A;
 }
 h1{
-    color: #F3D0FF;
+    color: #FFA9A9;
     margin-bottom: 0px;
     padding: 10px;
 }
@@ -56,7 +56,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #4A2744;
+    background-color: #4A1A1A;
 }
 
 .iconLinks{
