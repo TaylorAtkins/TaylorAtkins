@@ -54,9 +54,23 @@ a:hover>div>div, a:focus>div>div, a:active>div>div{
     background-color: #2A314A;
     color: #CBFFFE;
 }
-img{
-    height:10rem;
-    width: 10rem;
+.space-hunt-inner{
+    height: 400px;
+    width: 730px;
+    justify-content: center;
+}
+.space-hunt-image{
+    height: 400px;
+    width: 730px;
+}
+.airline-inner{
+    height: 400px;
+    width: 249px;
+    justify-content: center;
+}
+.airline-image{
+    height: 400px;
+    width: 249px;
 }
 footer{
     /*border-top: #4A2744 2px solid;*/
