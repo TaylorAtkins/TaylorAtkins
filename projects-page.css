@@ -2,91 +2,71 @@
 body{
     background-color: #CBFFFE;
     color: #2A314A;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0px;
-    margin: 0px;
-    position: relative;
-}
-header{
-    position: relative;
-    background-color: #2A314A;
-    color: white;
-    text-align: center;
-    padding: 0px;
-}
-.about{
-    background-color: #F3D0FF;
-    color: #4A2744;
-    border-color: #4A2744;
-}
-.projects{
-    background-color: #CBFFFE;
-    color: #2A314A;
-}
-.contact{
-    background-color:#FFA9A9;
-    color: #4A1A1A;
-}
-h1{
-    color: #CBFFFE;
-    margin-bottom: 0px;
-    padding: 10px;
 }
 
-span{
-    font-size: 1.2em;
+header{
+    background-color: #2A314A;
 }
-.outerBox{
-   /* background-color: #4A2744;*/
-    margin: 20px;
-    padding: 10px;
+
+h1{
+    color: #CBFFFE;
 }
+
 a:hover>div>div, a:focus>div>div, a:active>div>div{
     font-weight: bolder;
 }
 
 .innerBox{
-    /*background-color: #F3D0FF;*/
     margin: 20px;
     padding: 20px;
 }
+
+.btn-link {
+    color: #CBFFFE;
+}
+
+.btn-link:hover{
+    color: #77D4EC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.btn-link:focus{
+    text-decoration: none;
+}
+
 .card{
     background-color: #2A314A;
     color: #CBFFFE;
 }
+
 .space-hunt-inner{
     height: 400px;
     width: 730px;
     justify-content: center;
 }
+
 .space-hunt-image{
     height: 400px;
     width: 730px;
 }
+
 .airline-inner{
     height: 400px;
     width: 249px;
     justify-content: center;
 }
+
 .airline-image{
     height: 400px;
     width: 249px;
 }
+
 footer{
-    /*border-top: #4A2744 2px solid;*/
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     background-color: #2A314A;
 }
 
-.iconLinks{
-    margin: 21px;
-}
-.icons{
-    width: 32px;
-    height: 32px;
-}
-#linkedIn{
-    width: 37.76px;
+.iconLinks:hover .icons{
+    border: 1px #CBFFFE solid;
+    border-radius: 10px;
 }

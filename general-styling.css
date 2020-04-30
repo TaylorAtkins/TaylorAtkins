@@ -1,0 +1,55 @@
+
+body{
+    background-color: #F3D0FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+header{
+    position: relative;
+    text-align: center;
+    padding: 0px;
+}
+.about, .about:hover{
+    background-color: #F3D0FF;
+    color: #4A2744;
+    border-color: #4A2744;
+}
+.projects, .projects:hover{
+    background-color: #CBFFFE;
+    color: #2A314A;
+}
+.contact, .contact:hover{
+    background-color:#FFA9A9;
+    color: #4A1A1A;
+}
+.nav-item > a:hover{
+    font-weight: bold;
+}
+
+span{
+    font-size: 1.2em;
+}
+.outerBox{
+    margin: 20px;
+    padding: 10px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.iconLinks{
+    margin: 21px;
+}
+.icons{
+    width: 37px;
+    height: 37px;
+    padding: 5px;
+}
+#linkedIn{
+    width: 42.76px;
+}
