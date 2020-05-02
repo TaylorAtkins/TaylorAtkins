@@ -28,9 +28,9 @@ span{
 }
 
 .btn:hover, .btn:focus, .btn:active{
-    background-color: #FA423C;
-    border-color: #FA423C;
-    color: #000;
+    background-color: #FA423C !important;
+    border-color: #FA423C !important;
+    color: #000 !important;
 }
 
 .innerBox{
@@ -48,4 +48,9 @@ footer{
 .iconLinks:hover .icons{
     border: 1px #FFA9A9 solid;
     border-radius: 10px;
+}
+@media (max-width: 640px){
+    ul li:nth-child(3){
+        border-bottom: 2px solid;
+    }
 }

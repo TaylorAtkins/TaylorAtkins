@@ -15,7 +15,6 @@ h1{
     align-items: center;
     display: flex;
     margin-top: 30px;
-
 }
 
 .about-me-text{
@@ -37,4 +36,28 @@ footer{
 .iconLinks:hover .icons{
     border: 1px #F3D0FF solid;
     border-radius: 10px;
+}
+@media (max-width: 640px){
+    ul li:first-child{
+        order:3;
+        border-bottom: 2px solid;
+    }
+}
+@media (max-width: 768px){
+    .innerBox{
+        flex-direction: column;
+    }
+    #picture-of-me{
+        height: auto;
+        width: 200px;
+    }
+    .outerBox{
+        text-align: center;
+    }
+}
+@media (min-width:769px) and (max-width: 1200px){
+    #picture-of-me{
+        height: auto;
+        width: 300px;
+    }
 }

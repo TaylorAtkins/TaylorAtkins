@@ -4,7 +4,6 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
-    position: relative;
 }
 header{
     position: relative;
@@ -24,7 +23,7 @@ header{
     background-color:#FFA9A9;
     color: #4A1A1A;
 }
-.nav-item > a:hover{
+.nav-item > a:hover , .nav-item > a:focus{
     font-weight: bold;
 }
 
@@ -52,4 +51,17 @@ footer{
 }
 #linkedIn{
     width: 42.76px;
+}
+
+@media (max-width: 640px){
+    li{
+        width: 100%;
+    }
+    .outerBox{
+        text-align: center;
+    }
+    footer{
+        position: relative !important;
+        width: 100%;
+    }
 }
